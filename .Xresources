@@ -1,7 +1,6 @@
 
-
 ! URxvt Configuration
-URxvt.font:                       xft:DaddyTimeMono NF:size=14:style=regular:autohint=true:pixelsize=18
+URxvt.font:                       xft:DaddyTimeMono NF:size=14:style=regular:autohint=true:pixelsize=19
 URxvt.geometry:                   84x16
 URxvt.internalBorder:             20
 URxvt.cursorBlink:                false
@@ -16,6 +15,7 @@ URxvt.urgentOnBell:               false
 URxvt.depth:                      32
 URxvt.iso14755:                   false
 URxvt.pointerBlank:               true
+! URxvt.letterSpace: -1
 
 ! URxvt Extensions
 URxvt.perl-ext-common:            default,tabbedex,url-select,font-size
@@ -34,39 +34,38 @@ URxvt.keysym.Control-Down:        eval:scroll_down 1
 URxvt.keysym.Control-Home:        eval:scroll_to_top
 URxvt.keysym.Control-End:         eval:scroll_to_bottom
 
-*background: #1E1E28
-*foreground: #DADAE8
+! special
+*.foreground:   #bfc9db
+*.background:   #0f0f17
 
-! Black + dark black
-! *color0: #6E6C7E
-*color0: #232232
-*color8: #6E6C7E
+! black
+*.color0:       #13141c
+*.color8:       #646a73
 
-! Red
-*color1: #E38C8F
-*color9: #E38C8F
+! red
+*.color1:       #d78787
+*.color9:       #d78787
 
-! Green
-*color2: #B1E3AD
-*color10: #B1E3AD
+! green
+*.color2:       #afbea2
+*.color10:      #afbea2
 
-! Yellow
-*color3: #EBDDAA
-*color11:  #EBDDAA
+! yellow
+*.color3:       #e4c9af
+*.color11:      #e4c9af
 
-! Blue
-*color4: #96cdfb
-*color12: #A4B9EF
+! blue
+*.color4:       #a1bdce
+*.color12:      #a1bdce
 
-! Magenta
-*color5: #C6AAE8
-*color13: #C6AAE8
+! magenta
+*.color5:       #d7beda
+*.color13:      #d7beda
 
-! Pink
-*color6: #E5B4E2
-*color14: #E5B4E2
+! cyan
+*.color6:       #b1e7dd
+*.color14:      #b1e7dd
 
-! Whites
-*color7: #DADAE8
-*color15: #DADAE8
-
+! white
+*.color7:       #bfc9db
+*.color15:      #858893
