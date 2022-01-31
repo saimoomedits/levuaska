@@ -1,0 +1,32 @@
+#!/usr/bin/env bash
+
+type -p amixer &>/dev/null || exec "$EXNOTIFY_SEND" -u low -r 15 'Install alsa-utils!'
+
+
+Get_Perc="$(pactl list sinks | grep '^[[:space:]]Volume:' | \
+	head -n $(( $SINK + 1 )) | tail -n 1 | sed -e 's,.* \([0-9][0-9]*\)%.*,\1,')"
+
+Perc=$(expr $Get_Perc + 5)
+Perc_2=$(expr $Get_Perc - 5)
+
+
+case ${1} in
+    up)   pactl set-sink-volume 0 +5% && \
+    	  exec ${HOME}/.scripts/notify-send.sh -r 123 -t 700 -i "$HOME/.icons/UI/volume-medium.png" "Volume" " $Perc% "
+    ;;
+    down) pactl set-sink-volume 0 -5% && \
+    	  exec ${HOME}/.scripts/notify-send.sh -r 123 -t 700 -i "$HOME/.icons/UI/volume-medium.png" "Volume" " $Perc_2% " 
+    ;;
+    mute) pactl set-sink-mute 0 toggle 
+          if pactl get-sink-mute 0 0 | grep "yes"; then
+          exec "$HOME/.scripts/notify-send.sh" -i $HOME/.icons/UI/Music.png -r 123 -t 700 'Muted '
+  	  elif pactl get-sink-mute 0 0 | grep "no"; then
+          exec "$HOME/.scripts/notify-send.sh" -i $HOME/.icons/UI/Music.png -r 123 -t 700  'alright, Unmuted'
+
+          fi
+    ;;
+esac
+
+notify
+
+exit ${?}

@@ -1,0 +1,78 @@
+[global]
+title = Dunst
+class = Dunst
+monitor = 0
+follow = mouse
+geometry = "0x0-25+55
+offset = 14x54
+indicate_hidden = yes
+shrink = no
+format = "<span size='medium'><b>%s</b></span>\n%b"
+
+progress_bar = true
+progress_bar_height = 5
+progress_bar_frame_width = 0
+progress_bar_min_width = 200
+progress_bar_max_width = 400
+
+transparency = 0
+separator_height = 2
+padding = 8
+horizontal_padding = 16
+frame_width = 0
+frame_color = "#a0bccd"
+separator_color = auto
+
+font = DaddyTimeMono Nerd Font 12
+
+line_height = 0
+markup = full
+alignment = center
+vertical_alignment = center
+
+idle_threshold = 120
+show_age_threshold = 60
+sort = no
+word_wrap = yes
+ignore_newline = no
+stack_duplicates = true
+hide_duplicate_count = yes
+show_indicators = no
+sticky_history = no
+history_length = 200
+always_run_script = true
+corner_radius = 0
+icon_position = right
+max_icon_size = 48
+
+mouse_left_click = close_current
+mouse_middle_click = do_action
+mouse_right_click = close_all
+
+[shortcuts]
+close = ctrl+space
+close_all = ctrl+shift+space
+history = ctrl+Escape
+context = ctrl+shift+period
+
+[urgency_low]
+timeout = 1
+background = "#0f0f17"
+foreground = "#bfc9db"
+highlight = "#a0bccd"
+icon = /home/saimoom/.icons/UI/notification.png
+
+[urgency_normal]
+timeout = 4
+background = "#0f0f17"
+foreground = "#bfc9db"
+highlight = "#a0bccd"
+icon = /home/saimoom/.icons/UI/notification.png
+
+
+[urgency_critical]
+timeout = 0
+foreground = "#d78787"
+highlight = "#d78787"
+background = "#0f0f17"
+icon = /home/saimoom/.icons/UI/notification-alert.png

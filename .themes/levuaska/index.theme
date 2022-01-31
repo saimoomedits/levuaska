@@ -1,0 +1,9 @@
+[Desktop Entry]
+Type=X-GNOME-Metatheme
+Name=Levuaska
+Comment=A dark gtk theme based on owl4ce's Fleon theme.
+Encoding=UTF-8
+
+[X-GNOME-Metatheme]
+GtkTheme=Levuaska
+CursorSize=24

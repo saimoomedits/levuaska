@@ -1,0 +1,96 @@
+		;;  time 
+		(defwindow time :stacking "fg" :focusable "false" :screen 1 
+			    :geometry (geometry :x 260 :y 139 :width 266 :height 102)
+			     				(time))
+		;;  weather 
+		(defwindow weather :stacking "fg" :focusable "false" :screen 1 
+			    :geometry (geometry :x 536 :y 139 :width 105 :height 104)
+			     				(weather))
+
+
+		;;  day/month?
+		(defwindow day_month :stacking "fg" :focusable "false" :screen 1 
+			    :geometry (geometry :x 656 :y 139 :width 305 :height 104)
+			     				(day_month))
+
+
+		;;  quote
+		(defwindow quote :stacking "fg" :focusable "false" :screen 1 
+			    :geometry (geometry :x 536 :y 259 :width 427 :height 90)
+			     				(quote))
+
+		;;  profile 
+		(defwindow profile :stacking "fg" :focusable "false" :screen 1 
+			    :geometry (geometry :x 258 :y 249 :width 270 :height 270)
+			     				(profile))
+
+
+		;;  music 
+		(defwindow music :stacking "fg" :focusable "false" :screen 1 
+			    :geometry (geometry :x 535 :y 353 :width 428 :height 194)
+			     				(music))
+
+
+		;;  system 
+		(defwindow system :stacking "fg" :focusable "false" :screen 1 
+			    :geometry (geometry :x 260 :y 525 :width 268 :height 196)
+			     				(system))
+
+
+
+		;;  circular cpu thing 
+		(defwindow cpu_radial :stacking "fg" :focusable "false" :screen 1 
+			    :geometry (geometry :x 534 :y 580 :width 138 :height 138)
+			     				(cpu_radial))
+
+        ;; circular memory thing
+		(defwindow mem_radial :stacking "fg" :focusable "false" :screen 1 
+			    :geometry (geometry :x 678 :y 580 :width 138 :height 138)
+			     				(mem_radial))
+
+        ;; circular battery thing
+		(defwindow bat_radial :stacking "fg" :focusable "false" :screen 1 
+			    :geometry (geometry :x 824 :y 580 :width 138 :height 138)
+			     				(bat_radial))
+
+
+
+        ;; fetch hmm
+		(defwindow fetch_lol :stacking "fg" :focusable "false" :screen 1 
+			    :geometry (geometry :x 968 :y 140 :width 160 :height 278)
+			     				(fetch_sys))
+
+
+        ;; config files
+		(defwindow configs :stacking "fg" :focusable "false" :screen 1 
+			    :geometry (geometry :x 970 :y 425 :width 205 :height 190)
+			     				(cfgs))
+
+		(defwindow background :stacking "fg" :focusable "false" :screen 1 
+			    :geometry (geometry :x 240 :y 135 :width 1130 :height 598)
+			     				(bg))
+
+
+
+		;;  mail 
+		(defwindow mail :stacking "fg" :focusable "false" :screen 1 
+			    :geometry (geometry :x 1182 :y 472 :width 104 :height 42)
+			     				(mail))
+
+
+		;;  notifs 
+		(defwindow notifications :stacking "fg" :focusable "false" :screen 1 
+			    :geometry (geometry :x 1182 :y 598 :width 104 :height 42)
+			     				(notifications))
+
+
+		;;  power kiddies 
+		(defwindow power :stacking "fg" :focusable "false" :screen 1 
+			    :geometry (geometry :x 1183 :y 140 :width 104 :height 102)
+			     				(power_menu))
+
+
+		;;  socials but its 2  D: 
+		(defwindow socials_2 :stacking "fg" :focusable "false" :screen 1 
+			    :geometry (geometry :x 970 :y 622 :width 205 :height 90)
+			     				(socials_2))

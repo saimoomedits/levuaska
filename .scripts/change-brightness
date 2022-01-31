@@ -1,0 +1,24 @@
+#!/usr/bin/env bash
+
+type -p brightnessctl &>/dev/null || exec "$EXNOTIFY_SEND" -u low -r 16 'Install brightnessctl!'
+
+BRIGHTNESS_STEPS=5
+
+notify()
+{
+    BRIGHTNESS="$(brightnessctl i | grep -oP '\(\K[^%\)]+')"
+    exec $HOME/.scripts/notify-send.sh -r 1234 -t 700 -i $HOME/.icons/UI/brightness.png "Brightness" "$BRIGHTNESS "
+}
+
+case ${1} in
+    up)      brightnessctl set "${BRIGHTNESS_STEPS:-5}%+" -q
+    ;;
+    down)    brightnessctl set "${BRIGHTNESS_STEPS:-5}%-" -q
+    ;;
+    optimal) brightnessctl set 10% -q
+    ;;
+esac
+
+notify
+
+exit ${?}

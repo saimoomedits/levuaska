@@ -1,0 +1,72 @@
+;;  Profile vars 
+(defvar IMAGE "images/profile.png")
+(defvar greeting "Hey!")
+(defpoll username :interval "5m"  "whoami")
+
+
+;; Time vars
+(defpoll time_hour :interval "5s" 
+       "date +\"%I\"")
+(defpoll time_min :interval "5s"  
+       "date +\"%M\"")
+(defpoll time_mer :interval "5s" 
+       "date +\"%p\"")
+(defpoll time_day :interval "5s"  
+       "date +\"%d\"")
+(defpoll time_dayname :interval "5s"  
+       "date +\"%A\"")
+(defpoll time_month :interval "5s"  
+      "date +\%b")
+
+
+;; Weather vars
+(defpoll weathericon :interval "15m"  "~/.config/eww/scripts/weather_info --icon")
+(defpoll weatherstatus :interval "15m"  "~/.config/eww/scripts/weather_info --stat")
+(defpoll weathertemp :interval "15m"  "~/.config/eww/scripts/weather_info --temp")
+(defpoll weathericoncol :interval "15m"  "~/.config/eww/scripts/weather_info --hex")
+(defpoll weatherquote :interval "15m"  "~/.config/eww/scripts/weather_info --quote")
+
+;;  Music vars 
+(defpoll song :interval "1s"  "~/.config/eww/scripts/music_info --song")
+(defpoll song_artist :interval "1s"  "~/.config/eww/scripts/music_info --artist")
+(defpoll song_status :interval "1s"  "~/.config/eww/scripts/music_info --status")
+(defpoll current_status :interval "1s"  "~/.config/eww/scripts/music_info --time")
+(defpoll cover_art :interval "1s"  "~/.config/eww/scripts/music_info --cover")
+(defpoll ctime :interval "1s"  "~/.config/eww/scripts/music_info --ctime")
+(defpoll ttime :interval "1s"  "~/.config/eww/scripts/music_info --ttime")
+
+;;  System vars 
+(defpoll sys_host :interval "1h"  "hostname")
+(defpoll sys_cpu :interval "1s"  "~/.config/eww/scripts/sys_info --cpu")
+(defpoll sys_mem :interval "1s"  "~/.config/eww/scripts/sys_info --mem")
+(defpoll sys_bright :interval "10s"  "~/.config/eww/scripts/sys_info --blight")
+(defpoll sys_battery :interval "10s"  "~/.config/eww/scripts/sys_info --bat")
+(defpoll sys_volume :interval "1s" "~/.config/eww/scripts/volume") 
+(defpoll sys_getupdate :interval "7m" "~/.config/eww/scripts/update.sh --UPS") 
+(defpoll sys_getupdate_icon :interval "7m" "~/.config/eww/scripts/update.sh --ICON") 
+(defpoll sys_getupdate_col :interval "7m" "~/.config/eww/scripts/update.sh --COL") 
+(defpoll sys_pkgs :interval "6m" "pacman -Qq | wc -l") 
+
+
+;;  fetch
+(defpoll uptime :interval "50s" "uptime -p | sed -e 's/up //;s/ hours,/h/;s/ hour,/h/;s/ minutes/m/;s/ minute/m/'")
+
+
+;; battery status 
+(defpoll battery :interval "3s"
+    "~/.config/eww/scripts/sys_info --bat")
+
+
+;; quotes
+(defpoll quote_text :interval "10m"
+    "~/.config/eww/scripts/quote quote")
+(defpoll quote_author :interval "10m"
+    "~/.config/eww/scripts/quote author")
+
+
+;; social thingos
+(defpoll num_mails :interval "5m"  "~/.config/eww/scripts/mails")
+(defpoll notifs_icon :interval "5m"  "~/.config/eww/scripts/notifs --ICON")
+(defpoll notifs_col :interval "5m"  "~/.config/eww/scripts/notifs --COL")
+(defpoll notifs_num :interval "1m"  "~/.config/eww/scripts/notifs --MSG")
+

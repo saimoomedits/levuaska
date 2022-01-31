@@ -1,0 +1,17 @@
+#!/bin/sh
+
+editor="vim"
+term="urxvt"
+eww="$HOME/.local/bin/eww/eww close-all"
+
+
+if [[ "$1" == "bspwmrc" ]]; then
+    $eww && $term -e "$editor ~/.config/bspwm/bspwmrc"	
+elif [[ "$1" == "eww_yuck" ]]; then
+    $eww && $term -e "$editor ~/.config/eww/eww.yuck"	
+elif [[ "$1" == "vimrc" ]]; then
+    $eww && $term -e "$editor ~/.vimrc"	
+elif [[ "$1" == "gtk" ]]; then
+	$eww && lxappearance
+fi
+

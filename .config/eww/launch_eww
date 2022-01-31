@@ -1,0 +1,47 @@
+#!/bin/bash
+
+## Files and cmd
+FILE="$HOME/.cache/eww_launch.xyz"
+EWW="$HOME/.local/bin/eww/eww -c $HOME/.config/eww/"
+
+## Run eww daemon if not running already
+if [[ ! `pidof eww` ]]; then
+	${EWW} daemon
+	sleep 1
+fi
+
+# widgets not in use
+# apps
+# twitter
+# volume
+# fetch
+
+## Open widgets 
+run_eww() {
+	${EWW} open-many \
+           mail \
+           notifications \
+           configs \
+           weather \
+           power \
+           fetch_lol \
+           day_month \
+           quote \
+           cpu_radial \
+           bat_radial \
+           socials_2 \
+           mem_radial \
+           system \
+           music \
+           profile \
+		   time
+}
+
+## Launch or close widgets accordingly
+if [[ ! -f "$FILE" ]]; then
+	touch "$FILE"
+	run_eww
+else
+	${EWW} close-all 
+	rm "$FILE"
+fi

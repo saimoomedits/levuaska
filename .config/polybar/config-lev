@@ -1,0 +1,423 @@
+[colors]
+; Main bar bg color 
+background = #0f0f17
+; Modules bg color
+background-alt = #22242b
+background-alt-2 = #575268
+background-alt-3 = #5B5F78
+; main foreground color 
+foreground = #bfc9db
+; accent color
+accent = #a1bdce
+empty = #00000000
+
+mauve = #d7beda
+black = #131020
+green = #afbea2
+red = #d78787
+orange = #e0b089
+cyan = #b8d6d3
+pink = #f299e6
+yellow = #e4c9af
+blue = #a1bdce
+teal = #B5E8E0
+gray = #858893
+flamingo = #f2cdcd
+
+[bar/mybar]
+modules-right = gap backlight space pulseaudio space wlan space battery sep date gap l1 arch r1
+modules-center = 
+modules-left = l1 bspwm r1 gap l1 mpd
+
+
+width = 100%
+height = 30
+offset-x = 0%
+offset-y = 0%
+radius = 0.0
+fixed-center = false
+wm-restack = bspwm
+override-redirect = true
+
+line-hieght = 4
+line-size = 3
+line-color = #ffffff
+
+
+foreground = ${colors.foreground}
+background = ${colors.background}
+border-color = ${colors.background}
+border-size = 8
+
+
+; fonts
+font-0 = DaddyTimeMono Nerd Font:size=12;2
+font-1 = Feather:style=Bold:size=12;2
+font-2 = DaddyTimeMono Nerd Font:size=13;3
+
+
+; font for the rounded thingis
+font-3 = DaddyTimeMono Nerd Font:size=18;5
+
+
+[module/bspwm]
+type = internal/bspwm
+
+ws-icon-0 = 1;
+ws-icon-1 = 2;
+ws-icon-2 = 3;
+ws-icon-3 = 4;
+ws-icon-4 = 5;
+ws-icon-default = 
+
+
+label-focused = 
+label-focused-background = ${colors.background-alt}
+label-focused-foreground = ${colors.teal}
+label-focused-underline= ${colors.empty}
+label-focused-padding = 1
+
+label-occupied = 
+label-occupied-background = ${colors.background-alt}
+label-occupied-foreground = ${colors.accent}
+label-occupied-padding = 1
+
+label-urgent = 𥉉
+label-urgent-background = ${colors.background-alt}
+label-urgen-foreground = {colors.yellow}
+label-urgent-padding = 2
+
+label-empty = 
+label-empty-foreground = ${colors.foreground}
+label-empty-background = ${colors.background-alt}
+label-empty-padding = 1
+ 
+
+[module/date]
+interval = 5
+type = internal/date
+date = 
+date-alt = " %d / %m/ %Y"
+
+time = " %I:%M"
+time-alt = 
+
+format-prefix = %{T4}%{T-}
+format-prefix-foreground = ${colors.background-alt}
+format-prefix-background = ${colors.background}
+format-underline = ${colors.empty}
+format-suffix = %{T4}%{T-}
+format-suffix-foreground = ${colors.background-alt}
+
+label = "%date% %time% " 
+label-foreground = ${colors.accent}
+label-background = ${colors.background-alt}
+
+[module/battery]
+type = internal/battery
+label-charging = "%percentage%%  "
+label-charging-background = ${colors.background}
+label-charging-foreground = ${colors.foreground}
+label-discharging-background = ${colors.background}
+label-discharging-foreground = ${colors.foreground}
+label-discharging = "%percentage%%  "
+
+label-full = "  "
+label-full-background = ${colors.background}
+label-full-foreground = ${colors.foreground}
+format-full-prefix = %{T3}%{T-}
+format-full-prefix-foreground = ${colors.green}
+format-full-prefix-background = ${colors.background}
+
+format-charging = " <label-charging>"
+format-charging-foreground = ${colors.green}
+format-charging-background = ${colors.background}
+format-discharging = "<ramp-capacity> <label-discharging>"
+format-discharging-foreground = ${colors.green}
+format-discharging-background = ${colors.background}
+
+
+ramp-capacity-0 = %{T3} %{T-}
+ramp-capacity-1 = %{T3} %{T-}
+ramp-capacity-2 = %{T3} %{T-}
+ramp-capacity-3 = %{T3} %{T-}
+ramp-capacity-4 = %{T3} %{T-}
+
+
+full-at = 99
+
+battery = BAT0
+adapter = ADP1
+
+poll-interval = 5
+
+
+[module/cpu]
+type = internal/cpu
+interval = 7
+format-prefix = %{T5}  %{T-}
+format-prefix-foreground = ${colors.foreground}
+format-underline = ${colors.empty}
+label = "%percentage%%"
+label-foreground = ${colors.foreground}
+label-background = ${colors.background}
+format-prefix-background = ${colors.background}
+
+[module/wlan]
+type = internal/network
+interface = wlp2s0
+interval = 3.0
+
+format-connected = <ramp-signal><label-connected>
+format-connected-underline = ${colors.empty}
+label-connected = "%essid%"
+label-connected-foreground = ${colors.foreground}
+label-connected-background = ${colors.background}
+
+format-disconnected = <label-disconnected>
+format-disconnected-prefix = "  "
+format-disconnected-prefix-background = ${colors.background}
+format-disconnected-prefix-foreground = ${colors.red}
+label-disconnected = %{A1:networkmanager_dmenu:}%{A-}
+label-disconnected-foreground = ${colors.red}
+label-disconnected-background =  ${colors.background}
+
+ramp-signal-0 = %{T5} %{T-}
+ramp-signal-foreground = ${colors.accent}
+ramp-signal-background = ${colors.background}
+click-left = exec networkmanager_dmenu
+
+[module/alsa]
+type = internal/alsa
+master-mixer = Master
+
+master-soundcard = default
+speaker-soundcard = default
+headphone-soundcard = default
+
+format-volume = <label-volume>
+label-volume = "%percentage%%"
+label-volume-foreground = ${colors.foreground}
+label-volume-background = ${colors.background}
+
+format-volume-prefix = %{T5}"  "%{T-}
+format-volume-prefix-foreground = ${colors.foreground}
+format-volume-prefix-background = ${colors.background}
+format-muted-prefix = %{T5}    %{T-}
+format-muted-foreground = ${colors.red}
+label-muted = muted
+
+[module/backlight]
+type = internal/backlight
+
+card = intel_backlight
+
+use-actual-brightness = true
+
+enable-scroll = true
+
+format = "<label>"
+format-prefix = "  "
+format-background = ${colors.background}
+format-foreground = ${colors.orange}
+label =  "%percentage%%"
+label-foreground = ${colors.foreground}
+label-background = ${colors.background}
+
+
+
+ramp-0 = %{F#F8BD96}0%{F-} 
+ramp-1 = %{F#F8BD96}0%{F-} 
+ramp-2 = %{F#F8BD96}0%{F-} 
+ramp-3 = %{F#F8BD96}0%{F-} 
+ramp-4 = %{F#F8BD96}0%{F-} 
+
+[module/now-playing]
+type = custom/script
+tail = true
+format-prefix = %{T5}" "%{T-}
+format-prefix-background = ${colors.background-alt}
+format-prefix-foreground = ${colors.foreground}
+format = <label>
+format-background = ${colors.background-alt}
+exec = ${HOME}/.scripts/Polybar/now-playing/playing-zscroll.sh
+
+click-left = ~/.scripts/playerctl.sh togg && notify-send -u low -i ~/.icons/Sai-i3/Music.png "$(playerctl status)"
+scroll-up = ~/.scripts/playerctl.sh next
+scroll-down = ~/.scripts/playerctl.sh prev
+click-right = killall vlc
+
+[module/powermenu]
+type = custom/text
+content = %{T6}  %{T-}%{T1} %{T-}
+content-background = ${colors.accent}
+content-foreground = ${colors.background}
+click-left = ~/.scripts/Rofi/powermenu.sh
+
+
+[module/space]
+type = custom/text
+content = "    "
+content-background = ${colors.background}
+content-foreground = ${colors.background-alt-2}
+
+
+[module/sep]
+type = custom/text
+content = "|  "
+content-background = ${colors.background}
+content-foreground = ${colors.background-alt-3}
+
+
+[module/right]
+type = custom/text
+content = %{T6} %{T-}
+content-background = ${colors.background}
+content-foreground = ${colors.background-alt}
+
+[module/left]
+type = custom/text
+content = %{T6} %{T-}
+content-background = ${colors.background}
+content-foreground = ${colors.background-alt}
+
+[module/layout]
+type = custom/script
+interval = 2
+format-background = ${colors.background-alt}
+format-foreground = ${colors.foreground}
+format = "  <label> "
+exec = ~/.scripts/layouts.sh
+
+
+[module/memory]
+type = internal/memory
+interval = 7
+format = <label>
+format-prefix = "" 
+format-prefix-foreground = ${colors.yellow}
+label = " %percentage_used%%"
+format-background = ${colors.background}
+format-padding = 2
+
+
+[module/updates]
+type = custom/script
+exec = sh ~/.scripts/Polybar/update.sh
+interval = 180
+format = <label>
+format-prefix = " "
+label = %output%
+format-padding = 2
+format-foreground = ${colors.foreground}
+format-background = ${colors.background}
+
+
+
+[module/pulseaudio]
+type = internal/pulseaudio
+
+sink = alsa_output.pci-0000_12_00.3.analog-stereo
+
+use-ui-max = true
+
+interval = 5
+format-volume = <label-volume>
+format-volume-prefix = " "
+format-volume-prefix-foreground = ${colors.flamingo}
+format-volume-background = ${colors.background}
+
+ramp-volume-0 = %{F#F2CDCD}0%{F-} 
+ramp-volume-1 = %{F#F2CDCD}0%{F-} 
+ramp-volume-2 = %{F#F2CDCD}0%{F-} 
+ramp-volume-3 = %{F#F2CDCD}0%{F-} 
+ramp-volume-4 = %{F#F2CDCD}0%{F-} 
+
+
+label-volume = %percentage%%
+
+label-muted = 
+label-muted-foreground = ${colors.red}
+label-muted-background = ${colors.background}
+
+
+
+[module/mpd]
+type = internal/mpd
+
+host = 127.0.0.1
+port = 6600
+format-online = %{A3:urxvt -e ncmpcpp:}%{A1:killall mpd && ~/.config/polybar/launch-lev.sh:}<label-song>%{A-, A-}%{T4}%{B#0f0f17}%{F#1e1e2e}%{F-, B-}
+format-online-background = ${colors.background-alt}
+format-online-foreground = ${colors.foreground}
+label-song = %{T5}%{F#9ab5c5}%{T-, F-} %title%
+format-offline = %{A1:mpd:} ﱙ %{A-}%{T4}%{B#0f0f17}%{F#22242b}%{B-, T-, F-}
+format-offline-background = ${colors.background-alt}
+format-offline-foreground = ${colors.accent}
+label-offline = offline
+; Seconds to sleep between progressbar/song timer sync
+; Default: 1
+interval = 1
+
+
+
+icon-play = 契
+icon-pause = 
+icon-stop = ⏹
+icon-prev = 玲
+icon-next = 怜
+icon-repeat = 
+
+[module/arch]
+type = custom/text
+content = %{T1}%{T-}%{T6} %{T-}%{T2}%{T-}
+click-left = urxvt
+click-right = urxvt -e ranger
+content-background = ${colors.background-alt}
+content-foreground = ${colors.green}
+
+[module/uptime]
+type = custom/script
+interval = 30
+exec = ~/.scripts/Polybar/uptime.sh
+format = "<label>"
+format-prefix = " "
+format-background = ${colors.background-alt}
+format-foreground = ${colors.foreground}
+format-prefix-foreground = ${colors.mauve}
+
+
+
+[module/gap]
+type = custom/text
+content = "  "
+content-background = ${colors.background}
+
+[module/title]
+type = internal/xwindow
+
+; Available tags:
+;   <label> (default)
+format = <label>
+format-background = ${colors.background-alt}
+format-foreground = ${colors.foreground}
+format-padding = 1
+
+label = %title%
+label-maxlen = 20
+
+label-empty = Desktop
+label-empty-foreground = ${colors.foreground}
+
+[module/r1]
+type = custom/text
+content = %{T4}%{T-}
+content-background = ${colors.background}
+content-foreground = ${colors.background-alt}
+
+[module/l1]
+type = custom/text
+content = %{T4}%{T-}
+content-background = ${colors.background}
+content-foreground = ${colors.background-alt}
+

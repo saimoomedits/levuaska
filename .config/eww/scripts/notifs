@@ -1,0 +1,28 @@
+#!/bin/sh
+
+notifs=$(dunstctl count history)
+
+
+
+if [ $notifs = "0" ]; then
+    icon=""
+    col="#646a73"
+    msg="0(sad)"
+else
+    icon=""
+    col="#e4c9af"
+    msg="$notifs"
+fi
+
+
+
+if [[ "$1" == "--COL" ]]; then
+    echo $col	
+elif [[ "$1" == "--LN" ]]; then
+	echo $last_notifs
+elif [[ "$1" == "--MSG" ]]; then
+	echo $msg
+elif [[ "$1" == "--ICON" ]]; then
+	echo $icon
+fi
+

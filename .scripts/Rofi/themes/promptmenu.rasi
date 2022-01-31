@@ -1,0 +1,114 @@
+@import "colors.rasi"
+
+* {
+  /* General */
+  text-font:                            "DaddyTimeMono Nerd Font 13";
+  icon-font:                            "feather 5";
+  text-font-2:				"DaddyTimeMono Nerd Font 20";
+
+  option-6-listview-spacing:            0px;
+
+  // top right bottom left
+  menu-window-padding:                  6px 6px 6px 20px;
+  menu-prompt-padding:                  0px 20px 10px 0px;
+  menu-prompt-margin:                   20px;
+  menu-element-border:                  0px 10px 0px 10px;
+  menu-element-padding:                 10px 20px 10px 4px;
+}
+
+#window {
+  width: 16%;
+  height: 18%;
+  location: center;
+  border: 0px;
+}
+
+* {
+  background-color: @bg;
+  text-color: @fg;
+  font: @icon-font;
+}
+
+#horibox {
+  children: [ listview ];
+}
+
+#listview {
+  layout: horizontal;
+}
+
+#element {
+  border: 0px;
+  padding: @some-element-padding;
+  background-color: @bg;
+  border-radius: 7px;
+}
+
+#element.selected {
+  background-color: @ac;
+  text-color: @bg;
+}
+
+* {
+  font: @text-font;
+  location: center;
+}
+
+#window {
+  padding: @menu-window-padding;
+  children: [ inputbar, horibox ];
+}
+
+#inputbar {
+  children: [ prompt ];
+  margin: @menu-inputbar-margin;
+}
+
+#listview {
+  spacing: @option-6-listview-spacing;
+  lines: 2;
+}
+
+prompt {
+  padding: @menu-prompt-padding;
+}
+
+#prompt {
+  margin: @menu-prompt-margin;
+  background-color: @bg;
+  text-color: @ac;
+  font: @text-font-2;
+}
+
+#element {
+  font: @icon-font;
+  border: @menu-element-border;
+  padding: @menu-element-padding;
+  border-color: @bg;
+}
+
+#element.selected {
+  border-color: @ac;
+}
+
+element.active,
+element.selected.urgent {
+  background-color: @on;
+  text-color: @bg;
+  border-color: @on;
+}
+
+element.selected.urgent {
+  border-color: @ac;
+}
+
+element.urgent,
+element.selected.active {
+  background-color: @off;
+  text-color: @bg;
+  border-color: @off;
+}
+
+element.selected.active {
+  border-color: @ac;
+}

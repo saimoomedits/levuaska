@@ -1,0 +1,198 @@
+#
+# wm independent hotkeys
+#
+
+# terminal emulator
+super + Return
+	urxvt
+
+# program launcher
+# rofi default config
+super + {e}
+	rofi -show drun -theme ${HOME}/.config/rofi/sidebar.rasi 
+
+
+
+# make sxhkd reload its configuration files:
+super + Escape
+	pkill -USR1 -x sxhkd
+
+#
+# bspwm hotkeys
+#
+
+# quit/restart bspwm
+super + shift + {e,c}
+	bspc {quit,wm -r}
+
+# close and kill
+super + q
+	bspc node -{c,k}
+
+# alternate between the tiled and monocle layout
+super + m
+	bspc desktop -l next
+
+# send the newest marked node to the newest preselected node
+super + y
+	bspc node newest.marked.local -n newest.!automatic.local
+
+# swap the current node and the biggest window
+super + g
+	bspc node -s biggest.window
+
+#
+# state/flags
+#
+
+# set the window state
+super + {z,shift + z,x,c}
+	bspc node -t {tiled,pseudo_tiled,floating,fullscreen}
+
+# set the node flags
+super + ctrl + {m,y}
+	bspc node -g {marked,sticky}
+
+
+# focus/swap
+#
+
+
+
+super + {_,shift + }{Left,Down,Up,Right}
+	bspc node -{f,s} {west,south,north,east}
+
+
+super + {_,shift + }{a,s,w,d}
+	bspc node -{f,s} {west,south,north,east}
+
+
+
+# focus the node for the given path jump
+# super + {p,b,comma,period}
+#	bspc node -f @{parent,brother,first,second}
+
+# focus the next/previous window in the current desktop
+# super + {_,shift + }c
+#	bspc node -f {next,prev}.local.!hidden.window
+
+# focus the next/previous desktop in the current monitor
+super + bracket{left,right}
+	bspc desktop -f {prev,next}.local
+
+# focus the last node/desktop
+super + Tab
+	bspc window -f last
+
+# focus the older or newer node in the focus history
+super + {o,i}
+	bspc wm -h off; \
+	bspc node {older,newer} -f; \
+	bspc wm -h on
+
+# focus or send to the given desktop
+super + {_,shift + }{1-9,0}
+	bspc {desktop -f,node -d} '^{1-9,10}'
+
+#
+# preselect
+#
+
+# preselect the direction
+super + ctrl + {a,s,w,d}
+	bspc node -p {west,south,north,east}
+
+# preselect the ratio
+super + ctrl + {1-9}
+	bspc node -o 0.{1-9}
+
+# cancel the preselection for the focused node
+super + ctrl + space
+	bspc node -p cancel
+
+# cancel the preselection for the focused desktop
+super + ctrl + shift + space
+	bspc query -N -d | xargs -I id -n 1 bspc node id -p cancel
+
+#
+# move/resize
+#
+
+# expand a window by moving one of its side outward
+# super + alt + {a,s,w,d}
+#	bspc node -z {left -20 0,bottom 0 20,top 0 -20,right 20 0}
+
+# contract a window by moving one of its side inward
+# super + alt + shift + {a,s,w,d}
+#	bspc node -z {right -20 0,top 0 20,bottom 0 -20,left 20 0}
+
+# i3 like resizing
+super + alt + Left
+    /bin/sh $HOME/.config/bspwm/resize/shrinkx.sh
+super + alt + Right
+    /bin/sh $HOME/.config/bspwm/resize/expandx.sh
+super + alt + Down
+    /bin/sh $HOM.config/bspwm/resize/shrinky.sh
+super + alt + Up
+    /bin/sh $HOME/.config/bspwm/resize/expandy.sh
+
+
+
+# move a floating window
+super + {Left,Down,Up,Right}
+	bspc node -v {-20 0,0 20,0 -20,20 0}
+
+
+# start firefox
+super + {b}
+	firefox &
+
+
+# volumectl
+XF86Audio{RaiseVolume,LowerVolume,Mute}
+	${HOME}/.scripts/change-volume {up,down,mute}
+
+# brightnessctl
+XF86MonBrightness{Down,Up}
+	${HOME}/.scripts/change-brightness {down,up}
+
+# screenshot menu
+Print
+	${HOME}/.scripts/screenshot/screenshot.sh
+
+# power menu
+super + F4
+	${HOME}/.scripts/Rofi/powermenu.sh 
+
+# color picker from desktop
+super + r
+	${HOME}/.scripts/fun/color-picker.sh
+
+# Music ctl
+super + F1 
+	${HOME}/.scripts/Rofi/mpd-menu.sh
+
+
+# kill using mouse (aka) xkill
+super + shift + q
+	xkill
+
+# config menu (beta)
+super + control + e
+	${HOME}/.scripts/Rofi/config-menu.sh
+
+# toggle layouts
+super + grave
+	bsp-layout cycle && notify-send "$(bsp-layout get $(bspc query -D -d focused --names))" --hint=string:x-dunst-stack-tag:layout
+
+# mpd control
+super + control + F1
+	${HOME}/.scripts/mpd/mpd-service.sh stop
+super + control + F2
+	${HOME}/.scripts/mpd/mpd-service.sh client
+
+# eww
+{Super_R}
+    ${HOME}/.config/eww/launch_eww
+super + shift + v
+    ${HOME}/.scripts/launch_eww_sidebar
