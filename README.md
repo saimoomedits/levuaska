@@ -11,8 +11,8 @@
 detials:
 * **OS** : Arch
 * **WM** : BSPWM
-* **COLOR** : [Catppuccin](https://github.com/catppuccin/catppuccin)
-* **GTK-THEME** : [Catppuccin](https://github.com/catppuccin/gtk/releases)
+* **COLOR** : Levuaska
+* **GTK-THEME** : Levuaska
 * **FILE-BROWSER** : ranger
 * **MUSIC-PLAYER** : [mpd](https://www.musicpd.org/)
 * **WEB-BROWSER** : firefox
