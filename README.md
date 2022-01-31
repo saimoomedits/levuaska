@@ -17,7 +17,7 @@ detials:
 * **OS** : Arch
 * **WM** : BSPWM
 * **COLOR** : Levuaska
-* **GTK-THEME** : Levuaska
+* **GTK-THEME** : Levuaska(WIP) based on owl4ce's Fleon gtk theme
 * **FILE-BROWSER** : ranger
 * **MUSIC-PLAYER** : [mpd](https://www.musicpd.org/)
 * **WEB-BROWSER** : firefox
