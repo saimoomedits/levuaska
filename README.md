@@ -1,9 +1,10 @@
 # levuaska
 
 <h1 align="center">Bspwm dotfiles weeeeee</h1>
-<h3 align="center"><a> <img src="https://github.com/saimoomedits/eww-bspwm-is-cool/blob/main/screenshots/eww.png?raw=true" alt="desktop" border="0"></a></h3>
-<h3 align="center"><a> <img src="https://github.com/saimoomedits/eww-bspwm-is-cool/blob/main/screenshots/desktop.png?raw=true" alt="desktop" border="0"></a></h>
-<h3 align="center"><a> <img src="https://github.com/saimoomedits/eww-bspwm-is-cool/blob/main/screenshots/firefox.png?raw=true" alt="desktop" border="0"></a></h>
+<h3 align="center"><a> <img src="https://github.com/saimoomedits/levuaska/blob/main/screenshots/ss_1.png?raw=true" alt="desktop" border="0"></a></h3>
+<h3 align="center"><a> <img src="https://github.com/saimoomedits/levuaska/blob/main/screenshots/ss_2.png?raw=true" alt="desktop" border="0"></a></h3>
+<h3 align="center"><a> <img src="https://github.com/saimoomedits/levuaska/blob/main/screenshots/ss_3.png?raw=true" alt="desktop" border="0"></a></h3>
+<h3 align="center"><a> <img src="https://github.com/saimoomedits/levuaska/blob/main/screenshots/ss_4.png?raw=true" alt="desktop" border="0"></a></h3>
 
 ## Intro
 ### well hello there fellow linux user 🐧
