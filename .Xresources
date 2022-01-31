@@ -14,10 +14,8 @@ URxvt.scrollstyle:                plain
 URxvt.scrollWithBuffer:           false
 URxvt.urgentOnBell:               false
 URxvt.depth:                      32
-URxvt.background:		  [100]#1e1e28
 URxvt.iso14755:                   false
 URxvt.pointerBlank:               true
-! URxvt.letterSpace: -1
 
 ! URxvt Extensions
 URxvt.perl-ext-common:            default,tabbedex,url-select,font-size
