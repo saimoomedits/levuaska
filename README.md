@@ -1,6 +1,6 @@
-# levuaska
 
-<h1 align="center">Bspwm dotfiles weeeeee</h1>
+<h1 align="center">Levuaska</h1>
+<h2 align="center">Bspwm dotfiles weeeeee</h2>
 <h3 align="center"><a> <img src="https://github.com/saimoomedits/levuaska/blob/main/screenshots/ss_1.png?raw=true" alt="desktop" border="0"></a></h3>
 <h3 align="center"><a> <img src="https://github.com/saimoomedits/levuaska/blob/main/screenshots/ss_2.png?raw=true" alt="desktop" border="0"></a></h3>
 <h3 align="center"><a> <img src="https://github.com/saimoomedits/levuaska/blob/main/screenshots/ss_3.png?raw=true" alt="desktop" border="0"></a></h3>
