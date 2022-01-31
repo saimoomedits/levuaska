@@ -8,6 +8,11 @@
 
 ## Intro
 ### well hello there fellow linux user 🐧
+
+### what is this all about? hmm?
+Levuaska, is a **WIP** color scheme that I made heavily inspired by [catppuccin](https://github.com/catppuccin/catppuccin). andd idk what else to say...
+
+
 detials:
 * **OS** : Arch
 * **WM** : BSPWM
