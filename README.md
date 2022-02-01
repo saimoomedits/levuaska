@@ -1,5 +1,10 @@
 <h3 align="center">
 	<img src="https://github.com/saimoomedits/levuaska/blob/main/git-hub/header-or-smth.png"  height="200" alt="header"/><br/></h3>
+	
+______________________________________________________________________________________________________________
+| <img src="levuaska/git-hub/leoveska-colors/flamingo.png" height="23" width="23"/>  | Flamingo  | `#F2CDCD` |	
+
+
 
 <h2 align="center">Bspwm dotfiles weeeeee</h2>
 <h3 align="center"><a> <img src="https://github.com/saimoomedits/levuaska/blob/main/screenshots/ss_1.png?raw=true" alt="desktop" border="0"></a></h3>
