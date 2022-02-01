@@ -1,11 +1,6 @@
 <h3 align="center">
 	<img src="https://github.com/saimoomedits/levuaska/blob/main/git-hub/header-or-smth.png"  height="200" alt="header"/><br/></h3>
 
-
-<p align="center">
-	<a href="https://github.com/catppuccin/catppuccin/stargazers">
-		<img alt="stars" src="https://img.shields.io/github/stars/saimoomedits/levuaska?style=for-the-badge&
-					   logo=starship&color=C9CBFF&logoColor=D9E0EE&labelColor=302D41"></a></p>
 ___________________________________________________________________________________
 <h3 align="center">
 <img src="git-hub/leoveska-colors/flamingo.png" height="32" width="32"/>    <img src="git-hub/leoveska-colors/mauve.png" height="32" width="32"/>    <img src="git-hub/leoveska-colors/pink.png" height="32" width="32"/>    <img src="git-hub/leoveska-colors/maroon.png" height="32" width="32"/>    <img src="git-hub/leoveska-colors/red.png" height="32" width="32"/>    <img src="git-hub/leoveska-colors/peach.png" height="32" width="32"/>    <img src="git-hub/leoveska-colors/yellow.png" height="32" width="32"/>    <img src="git-hub/leoveska-colors/green.png" height="32" width="32"/>    <img src="git-hub/leoveska-colors/teal.png" height="32" width="32"/>    <img src="git-hub/leoveska-colors/blue.png" height="32" width="32"/>    <img src="git-hub/leoveska-colors/sky.png" height="32" width="32"/></h3>
