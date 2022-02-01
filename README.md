@@ -5,7 +5,7 @@ ________________________________________________________________________________
 <h3 align="center">
 <img src="git-hub/leoveska-colors/flamingo.png" height="32" width="32"/>    <img src="git-hub/leoveska-colors/mauve.png" height="32" width="32"/>    <img src="git-hub/leoveska-colors/pink.png" height="32" width="32"/>    <img src="git-hub/leoveska-colors/maroon.png" height="32" width="32"/>    <img src="git-hub/leoveska-colors/red.png" height="32" width="32"/>    <img src="git-hub/leoveska-colors/peach.png" height="32" width="32"/>    <img src="git-hub/leoveska-colors/yellow.png" height="32" width="32"/>    <img src="git-hub/leoveska-colors/green.png" height="32" width="32"/>    <img src="git-hub/leoveska-colors/teal.png" height="32" width="32"/>    <img src="git-hub/leoveska-colors/blue.png" height="32" width="32"/>    <img src="git-hub/leoveska-colors/sky.png" height="32" width="32"/></h3>
 
-
+<h2 align="center">Bspwm dotfiles weeeeee</h2>
 
 
 ## Intro
@@ -31,7 +31,6 @@ detials:
 * **FONTS** : Feather(for icons), [DaddyTimeMono Nerd Font](https://github.com/ryanoasis/nerd-fonts/releases/download/v2.1.0/DaddyTimeMono.zip)
 
 # Screenshots
-<h2 align="center">Bspwm dotfiles weeeeee</h2>
 <h3 align="center"><a> <img src="https://github.com/saimoomedits/levuaska/blob/main/screenshots/ss_1.png?raw=true" alt="desktop" border="0"></a></h3>
 <h3 align="center"><a> <img src="https://github.com/saimoomedits/levuaska/blob/main/screenshots/ss_2.png?raw=true" alt="desktop" border="0"></a></h3>
 <h3 align="center"><a> <img src="https://github.com/saimoomedits/levuaska/blob/main/screenshots/ss_3.png?raw=true" alt="desktop" border="0"></a></h3>
