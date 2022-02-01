@@ -1,5 +1,5 @@
-<h1 align="center">
-	<img src="https://github.com/saimoomedits/levuaska/blob/main/git-hub/header-or-smth.png"  alt="header"/><br/></h1>
+<h2 align="center">
+	<img src="https://github.com/saimoomedits/levuaska/blob/main/git-hub/header-or-smth.png"  alt="header"/><br/></h2>
 
 <h2 align="center">Bspwm dotfiles weeeeee</h2>
 <h3 align="center"><a> <img src="https://github.com/saimoomedits/levuaska/blob/main/screenshots/ss_1.png?raw=true" alt="desktop" border="0"></a></h3>
