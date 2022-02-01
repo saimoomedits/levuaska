@@ -7,11 +7,11 @@ heres a 'brief' explantion of all of them. 💀 📁
 * **📁 Bspwm** | main wm config
     <br>|___ ** bspwm_smart_move** | a better way to move windows around in bspwm
     <br>|___ ** bspwmrc** | main bspwm config that gets executed when bspwm is launched
-    |___ **📁 resize** | a better resize for bspwm.
-             |___ ** expandx.sh** | expands windows in the X direction
-             |___ ** expandy.sh** | expands windows in the Y direction
-             |___ ** shrinkx.sh** | shrinks windows in the X direction
-             |___ ** expandy.sh** | shrinks windows in the Y direction
+    <br>|___ **📁 resize** | a better resize for bspwm.
+             <br>|___ ** expandx.sh** | expands windows in the X direction
+             <br>|___ ** expandy.sh** | expands windows in the Y direction
+             <br>|___ ** shrinkx.sh** | shrinks windows in the X direction
+             <br>|___ ** expandy.sh** | shrinks windows in the Y direction
             
 * **📁 Dunst** | notification daemon config
       |___ ** dunstrc** | dunst configuration file... 
