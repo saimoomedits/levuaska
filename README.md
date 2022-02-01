@@ -4,7 +4,7 @@
 
 <p align="center">
 	<a href="https://github.com/catppuccin/catppuccin/stargazers">
-		<img alt="Stargazers" src="https://img.shields.io/github/stars/saimoomedits/levuaska?style=for-the-badge&
+		<img alt="stars" src="https://img.shields.io/github/stars/saimoomedits/levuaska?style=for-the-badge&
 					   logo=starship&color=C9CBFF&logoColor=D9E0EE&labelColor=302D41"></a></p>
 ___________________________________________________________________________________
 <h3 align="center">
