@@ -5,8 +5,8 @@ as of now there are **9** configs
 heres a 'brief' explantion of all of them. 💀 📁 
 
 * **📁 Bspwm** | main wm config
-    <br>|___ ** bspwm_smart_move** | a better way to move windows around in bspwm.</br>
-    <br>|___ ** bspwmrc** | main bspwm config that gets executed when bspwm is launched</br>
+    <br>|___ ** bspwm_smart_move** | a better way to move windows around in bspwm
+    <br>|___ ** bspwmrc** | main bspwm config that gets executed when bspwm is launched
     |___ **📁 resize** | a better resize for bspwm.
              |___ ** expandx.sh** | expands windows in the X direction
              |___ ** expandy.sh** | expands windows in the Y direction
