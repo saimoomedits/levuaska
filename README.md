@@ -2,7 +2,7 @@
 	<img src="https://github.com/saimoomedits/levuaska/blob/main/git-hub/header-or-smth.png"  height="200" alt="header"/><br/></h3>
 	
 ______________________________________________________________________________________________________________
-| <img src="levuaska/git-hub/leoveska-colors/flamingo.png" height="23" width="23"/>  | Flamingo  | `#F2CDCD` |	
+| <img src="git-hub/leoveska-colors/flamingo.png" height="23" width="23"/>  | Flamingo  | `#F2CDCD` |	
 
 
 
