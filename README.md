@@ -28,19 +28,19 @@ Levuaska, is a **WIP** dark color scheme that I made for fun, its heavily inspir
 
 <img src="screenshots//ss_3.png" alt="Repo Preview" align="right" width="400px">
 ***important things~***
-* **OS** : Arch 🤓 ***btw***
-* **WM** : BSPWM 🪟 **best wm**
-* **COLOR** : Levuaska 🖌️ **bootiful**
-* **GTK-THEME** : Levuaska(WIP) ⛰️ **based on owl4ce's Fleon gtk theme**
-* **FILE-BROWSER** : ranger 🦾 **simple yet customizable**
-* **MUSIC-PLAYER** : [mpd](https://www.musicpd.org/) 🎵 **high quality "never gonna give you up"**
-* **WEB-BROWSER** : firefox 🦊 **fox on 🔥**
-* **APPLICATION-LAUNCHER** : [Rofi](https://github.com/davatorium/rofi) 🚀 **blazing fast**
-* **BAR** : [Polybar](https://github.com/polybar/polybar) 😃 **easy to configure**
-* **TERMINAL** : Urxvt 😎 **256 colors**
-* **PRF-VIEWER** : [Zathura](https://github.com/pwmt/zathura) 📓 **simple**
-* **NOTIFICATIONS** : [Dunst](https://dunst-project.org/) 🔔 **customizable notifications**
-* **FONTS** : Feather(for icons), [DaddyTimeMono Nerd Font](https://github.com/ryanoasis/nerd-fonts/releases/download/v2.1.0/DaddyTimeMono.zip)
+- **OS** : Arch 🤓 ***btw***
+- **WM** : BSPWM 🪟 **best wm**
+- **COLOR** : Levuaska 🖌️ **bootiful**
+- **GTK-THEME** : Levuaska(WIP) ⛰️ **based on owl4ce's Fleon gtk theme**
+- **FILE-BROWSER** : ranger 🦾 **simple yet customizable**
+- **MUSIC-PLAYER** : [mpd](https://www.musicpd.org/) 🎵 **high quality "never gonna give you up"**
+- **WEB-BROWSER** : firefox 🦊 **fox on 🔥**
+- **APPLICATION-LAUNCHER** : [Rofi](https://github.com/davatorium/rofi) 🚀 **blazing fast**
+- **BAR** : [Polybar](https://github.com/polybar/polybar) 😃 **easy to configure**
+- **TERMINAL** : Urxvt 😎 **256 colors**
+- **PRF-VIEWER** : [Zathura](https://github.com/pwmt/zathura) 📓 **simple**
+- **NOTIFICATIONS** : [Dunst](https://dunst-project.org/) 🔔 **customizable notifications**
+- **FONTS** : Feather(for icons), [DaddyTimeMono Nerd Font](https://github.com/ryanoasis/nerd-fonts/releases/download/v2.1.0/DaddyTimeMono.zip)
 
 ## Screenshots 🖼️
 <h3 align="center"><a> <img src="https://github.com/saimoomedits/levuaska/blob/main/screenshots/ss_1.png?raw=true" alt="desktop" border="0"></a></h3>
