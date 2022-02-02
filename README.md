@@ -4,13 +4,13 @@
 <div align="center">
     <p></p>
     <a href="https://github.com/saimoomedits/levuaska/stargazers">
-        <img src="https://img.shields.io/github/stars/saimoomedits/levuaska?colorA=#0f0f17&colorB=%23afbea2&style=for-the-badge">
+        <img src="https://img.shields.io/github/stars/saimoomedits/levuaska?colorA=0f0f17&colorB=%23afbea2&style=for-the-badge">
     </a>
     <a href="https://github.com/saimoomedits/levuaska/network/members/">
-        <img src="https://img.shields.io/github/forks/saimoomedits/levuaska?colorA=#0f0f17&colorB=%23f2cdcd&style=for-the-badge">
+        <img src="https://img.shields.io/github/forks/saimoomedits/levuaska?colorA=0f0f17&colorB=%23f2cdcd&style=for-the-badge">
     </a>
-    <img src="https://img.shields.io/github/repo-size/saimoomedits/levuaska?colorA=#0f0f17&colorB=%23b5e8e0&label=size&style=for-the-badge">
-    <img src="https://img.shields.io/github/license/saimoomedits/levuaska?colorA=#0f0f17&colorB=%23d78787&style=for-the-badge">
+    <img src="https://img.shields.io/github/repo-size/saimoomedits/levuaska?colorA=0f0f17&colorB=%23b5e8e0&label=size&style=for-the-badge">
+    <img src="https://img.shields.io/github/license/saimoomedits/levuaska?colorA=0f0f17&colorB=%23d78787&style=for-the-badge">
 </div>
 <h3 align="center">__________________________________________________________________</h3>
 <h3 align="center">
