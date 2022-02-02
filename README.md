@@ -11,7 +11,7 @@
     </a href="https://github.com/saimoomedits/levuaska">
     	<img src="https://img.shields.io/github/repo-size/saimoomedits/levuaska?colorA=0f0f17&colorB=%23b5e8e0&label=size&style=for-the-badge">
     </a>
-    <a href="https://github.com/saimoomedits/levuaska/LICENSE">
+    <a href="https://github.com/saimoomedits/levuaska/blob/main/LICENSE">
     	<img src="https://img.shields.io/github/license/saimoomedits/levuaska?colorA=0f0f17&colorB=%23d78787&style=for-the-badge">
     </a>
 </div>
