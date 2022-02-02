@@ -12,7 +12,7 @@
     <img src="https://img.shields.io/github/repo-size/saimoomedits/levuaska?colorA=0f0f17&colorB=%23b5e8e0&label=size&style=for-the-badge">
     <img src="https://img.shields.io/github/license/saimoomedits/levuaska?colorA=0f0f17&colorB=%23d78787&style=for-the-badge">
 </div>
-<h3 align="center">__________________________________________________________________</h3> :pac
+<h3 align="center">__________________________________________________________________</h3>
 <h3 align="center">
 <img src="git-hub/leoveska-colors/flamingo.png" height="32" width="32"/>    <img src="git-hub/leoveska-colors/mauve.png" height="32" width="32"/>    <img src="git-hub/leoveska-colors/pink.png" height="32" width="32"/>    <img src="git-hub/leoveska-colors/maroon.png" height="32" width="32"/>    <img src="git-hub/leoveska-colors/red.png" height="32" width="32"/>    <img src="git-hub/leoveska-colors/peach.png" height="32" width="32"/>    <img src="git-hub/leoveska-colors/yellow.png" height="32" width="32"/>    <img src="git-hub/leoveska-colors/green.png" height="32" width="32"/>    <img src="git-hub/leoveska-colors/teal.png" height="32" width="32"/>    <img src="git-hub/leoveska-colors/blue.png" height="32" width="32"/>    <img src="git-hub/leoveska-colors/sky.png" height="32" width="32"/></h3>
 
