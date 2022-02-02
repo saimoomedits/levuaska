@@ -18,8 +18,6 @@
 
 <h2 align="center">Bspwm dotfiles weeeeee</h2>
 
-
-## Intro
 ### well hello there fellow linux user 🐧
 
 ### what is this all about? hmm? 🧐
@@ -40,7 +38,7 @@ Levuaska, is a **WIP** dark color scheme that I made for fun, its heavily inspir
 * **NOTIFICATIONS** : [Dunst](https://dunst-project.org/) 🔔 **customizable notifications**
 * **FONTS** : Feather(for icons), [DaddyTimeMono Nerd Font](https://github.com/ryanoasis/nerd-fonts/releases/download/v2.1.0/DaddyTimeMono.zip)
 
-# Screenshots
+## Screenshots
 <h3 align="center"><a> <img src="https://github.com/saimoomedits/levuaska/blob/main/screenshots/ss_1.png?raw=true" alt="desktop" border="0"></a></h3>
 <h3 align="center"><a> <img src="https://github.com/saimoomedits/levuaska/blob/main/screenshots/ss_2.png?raw=true" alt="desktop" border="0"></a></h3>
 <h3 align="center"><a> <img src="https://github.com/saimoomedits/levuaska/blob/main/screenshots/ss_3.png?raw=true" alt="desktop" border="0"></a></h3>
