@@ -26,7 +26,7 @@
 Levuaska, is a **WIP** dark color scheme that I made for fun, its heavily inspired by [catppuccin](https://github.com/catppuccin/catppuccin). and idk what else to say...
 
 ***important things~***
-* **OS** : Arch 🤓 **I use arch btw
+* **OS** : Arch 🤓 ***btw***
 * **WM** : BSPWM 🪟 **best wm**
 * **COLOR** : Levuaska 🖌️ **bootiful**
 * **GTK-THEME** : Levuaska(WIP) ⛰️ **based on owl4ce's Fleon gtk theme**
