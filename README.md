@@ -10,7 +10,7 @@
         <img src="https://img.shields.io/github/forks/saimoomedits/levuaska?color=%23f2cdcd&style=for-the-badge">
     </a>
     <img src="https://img.shields.io/github/repo-size/saimoomedits/levuaska?color=%23b5e8e0&label=size&style=for-the-badge">
-    <img src="https://img.shields.io/github/last-commit/saimoomedits/levuaska?color=%23d7beda&style=for-the-badge">
+    <img src="https://img.shields.io/github/license/saimoomedits/levuaska?color=%23d78787&style=for-the-badge">
 </div>
 <h3 align="center">__________________________________________________________________</h3>
 <h3 align="center">
