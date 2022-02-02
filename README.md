@@ -46,6 +46,6 @@ Levuaska, is a **WIP** dark color scheme that I made for fun, its heavily inspir
 
 
 # credits
-* adi190x
-* rxhyn
-* owl4ce
+* **adi190x**
+* **rxhyn**
+* **owl4ce**
