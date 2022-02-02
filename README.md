@@ -10,7 +10,6 @@
         <img src="https://img.shields.io/github/forks/saimoomedits/levuaska?color=%23f2cdcd&style=for-the-badge">
     </a>
     <img src="https://img.shields.io/github/repo-size/saimoomedits/levuaska?color=%23b5e8e0&label=size&style=for-the-badge">
-	
     <img src="https://img.shields.io/github/last-commit/saimoomedits/levuaska/main?color=%23c98bbf&label=%230f0f17&logo=%230f0f17&logoColor=%230f0f17&style=for-the-badge">
 </div>
 <h3 align="center">__________________________________________________________________</h3>
