@@ -27,6 +27,8 @@
 Levuaska, is a **WIP** dark color scheme that I made for fun, its heavily inspired by [catppuccin](https://github.com/catppuccin/catppuccin). and idk what else to say...
 
 <img src="screenshots//ss_3.png" alt="Repo Preview" align="right" width="400px">
+<img src="screenshots//ss_2.png" alt="Repo Preview" align="right" width="400px">
+
 	
 **important things~**
 	
