@@ -19,7 +19,7 @@
 <h3 align="center">
 <img src="git-hub/leoveska-colors/flamingo.png" height="32" width="32"/>    <img src="git-hub/leoveska-colors/mauve.png" height="32" width="32"/>    <img src="git-hub/leoveska-colors/pink.png" height="32" width="32"/>    <img src="git-hub/leoveska-colors/maroon.png" height="32" width="32"/>    <img src="git-hub/leoveska-colors/red.png" height="32" width="32"/>    <img src="git-hub/leoveska-colors/peach.png" height="32" width="32"/>    <img src="git-hub/leoveska-colors/yellow.png" height="32" width="32"/>    <img src="git-hub/leoveska-colors/green.png" height="32" width="32"/>    <img src="git-hub/leoveska-colors/teal.png" height="32" width="32"/>    <img src="git-hub/leoveska-colors/blue.png" height="32" width="32"/>    <img src="git-hub/leoveska-colors/sky.png" height="32" width="32"/></h3>
 
-<h2 align="center">Bspwm dotfiles weeeeee</h2>
+<h2 align="center"> 🍣 Bspwm dotfiles weeeeee</h2>
 
 ### well hello there fellow linux user 🐧
 
@@ -43,6 +43,7 @@ Levuaska, is a **WIP** dark color scheme that I made for fun, its heavily inspir
 - **BAR** : [Polybar](https://github.com/polybar/polybar) 😃 **easy to configure**
 - **TERMINAL** : Urxvt 😎 **256 colors**
 - **PRF-VIEWER** : [Zathura](https://github.com/pwmt/zathura) 📓 **simple**
+- **Widgets** : [Eww](https://github.com/elkowar/eww) 🤢 **grosssss**
 - **NOTIFICATIONS** : [Dunst](https://dunst-project.org/) 🔔 **customizable notifications**
 - **FONTS** : Feather(for icons), [DaddyTimeMono Nerd Font](https://github.com/ryanoasis/nerd-fonts/releases/download/v2.1.0/DaddyTimeMono.zip)
 
