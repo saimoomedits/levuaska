@@ -7,7 +7,7 @@
         <img src="https://img.shields.io/github/stars/saimoomedits/levuaska?colorA=0f0f17&colorB=%23afbea2&style=for-the-badge">
     </a>
     <a href="https://github.com/saimoomedits/levuaska/network/members/">
-        <img src="https://badges.pufler.dev/visits/saimoomedits/levuaska?style=for-the-badge&color=e4c9af&logoColor=white&labelColor=0f0f17">
+        <img src="https://badges.pufler.dev/updated/saimoomedits/levuaska?style=for-the-badge&color=e4c9af&logoColor=white&labelColor=0f0f17">
     <a href="https://github.com/saimoomedits/levuaska">
     	<img src="https://img.shields.io/github/repo-size/saimoomedits/levuaska?colorA=0f0f17&colorB=%23b5e8e0&label=size&style=for-the-badge">
     </a>
