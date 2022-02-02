@@ -45,7 +45,7 @@ Levuaska, is a **WIP** dark color scheme that I made for fun, its heavily inspir
 <h3 align="center"><a> <img src="https://github.com/saimoomedits/levuaska/blob/main/screenshots/ss_4.png?raw=true" alt="desktop" border="0"></a></h3>
 
 
-# credits
+## credits
 * **adi190x**
 * **rxhyn**
 * **owl4ce**
