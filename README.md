@@ -4,13 +4,13 @@
 <div align="center">
     <p></p>
     <a href="https://github.com/saimoomedits/levuaska/stargazers">
-        <img src="https://img.shields.io/github/stars/saimoomedits/levuaska?color=%23afbea2&style=for-the-badge">
+        <img src="https://img.shields.io/github/stars/saimoomedits/levuaska?colorA=#0f0f17&colorB=%23afbea2&style=for-the-badge">
     </a>
     <a href="https://github.com/saimoomedits/levuaska/network/members/">
-        <img src="https://img.shields.io/github/forks/saimoomedits/levuaska?color=%23f2cdcd&style=for-the-badge">
+        <img src="https://img.shields.io/github/forks/saimoomedits/levuaska?colorA=#0f0f17&colorB=%23f2cdcd&style=for-the-badge">
     </a>
-    <img src="https://img.shields.io/github/repo-size/saimoomedits/levuaska?color=%23b5e8e0&label=size&style=for-the-badge">
-    <img src="https://img.shields.io/github/license/saimoomedits/levuaska?color=%23d78787&style=for-the-badge">
+    <img src="https://img.shields.io/github/repo-size/saimoomedits/levuaska?colorA=#0f0f17&colorB=%23b5e8e0&label=size&style=for-the-badge">
+    <img src="https://img.shields.io/github/license/saimoomedits/levuaska?colorA=#0f0f17&colorB=%23d78787&style=for-the-badge">
 </div>
 <h3 align="center">__________________________________________________________________</h3>
 <h3 align="center">
@@ -23,7 +23,7 @@
 ### well hello there fellow linux user 🐧
 
 ### what is this all about? hmm?
-Levuaska, is a **WIP** color scheme that I made for fun, its heavily inspired by [catppuccin](https://github.com/catppuccin/catppuccin). and idk what else to say...
+Levuaska, is a **WIP** dark color scheme that I made for fun, its heavily inspired by [catppuccin](https://github.com/catppuccin/catppuccin). and idk what else to say...
 
 ***important things~***
 * **OS** : Arch
