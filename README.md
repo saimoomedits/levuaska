@@ -25,9 +25,10 @@
 
 ### what is this all about? hmm? 🧐
 Levuaska, is a **WIP** dark color scheme that I made for fun, its heavily inspired by [catppuccin](https://github.com/catppuccin/catppuccin). and idk what else to say...
-
-<img src="screenshots//ss_3.png" alt="ss_preview" align="right" width="512px">
-
+	
+<p align="center">
+	<img src="screenshots//ss_3.png" alt="ss_preview" align="right" width="512px">
+	</p>
 	
 **important things~**
 	
