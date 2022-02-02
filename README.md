@@ -28,7 +28,7 @@ Levuaska, is a **WIP** dark color scheme that I made for fun, its heavily inspir
 
 <img src="screenshots//ss_3.png" alt="Repo Preview" align="right" width="400px">
 	
-	**important things~**
+**important things~**
 	
 - **OS** : Arch 🤓 ***btw***
 - **WM** : BSPWM 🪟 **best wm**
