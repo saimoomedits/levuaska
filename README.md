@@ -55,6 +55,6 @@ Levuaska, is a **WIP** dark color scheme that I made for fun, its heavily inspir
 
 
 ## credits
-* **adi190x**
-* **rxhyn**
-* **owl4ce**
+* **[adi190x -](https://github.com/adi1090x) [rofi](https://github.com/adi1090x/rofi), [widget scripts](https://github.com/adi1090x/widgets)**
+* **[rxhyn - widget ideas, inspiration](https://github.com/rxyhn)** 
+* **[owl4ce - gtk theme and a few scripts](https://github.com/owl4ce/dotfiles)**
