@@ -41,6 +41,7 @@ run_eww() {
 if [[ ! -f "$FILE" ]]; then
 	touch "$FILE"
 	run_eww
+  bash $HOME/.config/eww/scripts/quote update
 else
 	${EWW} close-all 
 	rm "$FILE"
