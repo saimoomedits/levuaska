@@ -1,11 +1,17 @@
 #!/bin/bash
 
+uri=$(curl -s "https://api.quotable.io/random?maxLength=26")
 
+echo $uri | jq '.content' |  cut -d "\"" -f 2 > "$HOME/.cache/eww.quote.x"
+echo $uri | jq '.author' |  cut -d "\"" -f 2 > "$HOME/.cache/eww.author.y"
 
-uri=$(curl -s "https://api.quotable.io/random?maxLength=32")
-quote=$(echo $uri | jq '.content' | cut -d "\"" -f 2)
-author=$(echo $uri | jq '.author' | cut -d "\"" -f 2)
+if [ "$quote" = "" ] ; then
+	quote="Bad programmers worry about the code."
+    author="Linus Torvalds"
+fi
 
+quote=$(cat $HOME/.cache/eww.quote.x)
+author=$(cat $HOME/.cache/eww.author.y)
 
 if [ "$quote" = "" ] ; then
 	quote="Bad programmers worry about the code."
@@ -13,10 +19,10 @@ if [ "$quote" = "" ] ; then
 fi
 
 case $1 in
-    quote)
-        echo $quote
-        ;;
-    author)
-        echo "- $author"
-        ;;
+quote)
+echo $quote
+;;
+author)
+echo "- $author"
+;;
 esac
